@@ -11,11 +11,11 @@ func (q *Queue) IsEmpty() (result bool) {
 	return result
 }
 
-func (q *Queue) Push(val int) {
+func (q *Queue) Enqueue(val int) {
 	// TODO: implement this method
 }
 
-func (q *Queue) Pop() (val int, err error) {
+func (q *Queue) Dequeue() (val int, err error) {
 	// TODO: implement this method
 	return val, err
 }
